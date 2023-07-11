@@ -21,7 +21,6 @@ jobs:
             python-version: '3.8'
           - os: windows-latest
             python-version: '3.6'
-
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python
